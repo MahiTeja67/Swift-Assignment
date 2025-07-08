@@ -1,0 +1,64 @@
+.app-header {
+  background-color: #232646;
+  color: white;
+  padding: 15px 50px 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.header-left .swift-logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  background-color: #e4e4e4;
+  color: #232646;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.user-name {
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+  .header-right {
+    margin-top: 10px;
+  }
+}
+.swift-logo-link, .user-profile-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.swift-logo-link:hover, .user-profile-link:hover {
+  opacity: 0.8;
+}
+.swift-logo{
+  width: 100px;
+  margin:0px;
+}

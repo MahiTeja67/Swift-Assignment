@@ -1,0 +1,116 @@
+label{
+  color: #555;
+  font-weight: 500;
+  margin-left: 2px;
+}
+.profile-screen {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px gray;
+  padding: 30px;
+  margin-top: 20px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.profile-pic-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #313561;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.back-button:hover {
+  color: #0f22f1;
+}
+
+.profile-avatar-large {
+  background-color: #e4e4e4;
+  color: #232646;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0 auto 20px auto;
+}
+
+.profile-name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.profile-username {
+  color: #777;
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+.profile-details-container {
+    padding-top: 20px;
+}
+
+.profile-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.profile-field {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.profile-field label {
+  display: block;
+  font-size: 0.85em;
+  color: #555;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.profile-field p {
+  margin: 0;
+  font-size: 1em;
+  color: #232646;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .profile-fields {
+    grid-template-columns: 1fr;
+  }
+  .profile-screen {
+    padding: 20px;
+  }
+}
