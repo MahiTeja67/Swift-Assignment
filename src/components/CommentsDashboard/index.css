@@ -165,6 +165,75 @@
   cursor: not-allowed;
 }
 
+@media screen and (max-width: 768px) {
+  .comments-table{
+    min-width: 300px;
+    width: 100%;
+  }
+  .comments-table th{
+    font-size: 0.8em;
+  }
+  .comments-table td {
+    font-size: 0.6em;
+    padding: 0px;
+  }
+  .comments-table th:nth-child(1), /* Post ID */
+  .comments-table td:nth-child(1) {
+    width: 10%;
+    min-width: 10px;
+    text-align: center;
+  }
+
+  .comments-table th:nth-child(2), /* Name */
+  .comments-table td:nth-child(2) {
+    width: 20%;
+    min-width: 80px;
+    text-align: center;
+  }
+
+  .comments-table th:nth-child(3), /* Email */
+  .comments-table td:nth-child(3) {
+    width: 30%;
+    min-width: 100px;
+    text-align: center;
+  }
+
+  .comments-table th:nth-child(4), /* Comment */
+  .comments-table td:nth-child(4) {
+    width: 30%;
+    min-width: 150px;
+  }
+  .comments-dashboard{
+    margin-top: 5px;
+    padding: 20px;
+  }
+  .search-input-container{
+    order: -1;
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 7px;
+    width: 95%;
+  }
+  .search-input{
+    padding: 0px;
+    padding-top: 14px;
+  }
+  .search-logo{
+    margin-right: 5px;
+  }
+  .sort-button{
+    font-size: 0.6em;
+    width: 30%;
+    margin-top: 5px;
+  }
+  .sort-controls{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .dashboard-controls{
+    flex-direction: column;
+  }
+}
 
 @media (max-width: 900px) {
   .dashboard-controls {

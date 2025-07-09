@@ -21,3 +21,10 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+
+@media screen and (max-width:768px) {
+  .app-content{
+    padding: 10px;
+    padding-top: 5px;
+  }
+}

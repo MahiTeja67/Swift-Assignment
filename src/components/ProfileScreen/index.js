@@ -45,7 +45,7 @@ class ProfileScreen extends Component {
   };
 
   handleGoBack = () => {
-    this.props.history.push('/');
+    this.props.history.push('/'); 
   };
 
   render() {
@@ -90,7 +90,7 @@ class ProfileScreen extends Component {
             <div className="profile-avatar-large">{user.name.split(' ').map(n => n[0]).join('')}</div>
             <div>
               <h2 className="profile-name">{user.name}</h2>
-              <p className="profile-username">{user.email}</p>
+              <p className="profile-email">{user.email}</p>
             </div>
           </div>
           <div className="profile-fields">

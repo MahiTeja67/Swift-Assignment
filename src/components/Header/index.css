@@ -13,6 +13,7 @@
   font-weight: bold;
   font-size: 1.5em;
   letter-spacing: 1px;
+  margin-left: 5px;
 }
 
 .header-right {
@@ -40,21 +41,34 @@
 
 @media (max-width: 768px) {
   .app-header {
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
+    padding: 1px;
   }
   .header-right {
     margin-top: 10px;
   }
+  .header-left {
+    width: 10px;
+  }
+  .user-name{
+    display: none;
+  }
+  .user-profile-link{
+    padding-bottom: 7px;
+  }
+  
 }
-.swift-logo-link, .user-profile-link {
+.swift-logo-link{
   text-decoration: none;
   color: inherit;
   display: flex;
   align-items: center;
 }
-
+.user-profile-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
 .swift-logo-link:hover, .user-profile-link:hover {
   opacity: 0.8;
 }
